@@ -5,9 +5,8 @@ class exercise_4 {
          * Pista: Los números inferiores a 0 son negativos y los superiores, positivos.
          */
 
+        System.out.println("\n# Ejercicio N°1");
         int numeroIf = -2;
-
-        System.out.println("\n# Problema N°1");
         if ( numeroIf > 0){ System.out.println("El numero " + numeroIf + " es positivo"); }
         else if ( numeroIf == 0){ System.out.println("El numero " + numeroIf + " es 0"); }
         else { System.out.println("El numero " + numeroIf + " es negativo"); }
@@ -18,7 +17,7 @@ class exercise_4 {
          *  -Mostrarlo por pantalla cada vez que se ejecute.
          */
 
-        System.out.println("\n# Problema N°2");
+        System.out.println("\n# Ejercicio N°2");
         int numeroWhile = -1;
         while ( numeroWhile < 3 ){
             numeroWhile++;
@@ -29,7 +28,7 @@ class exercise_4 {
          * Para el bucle Do While, deberás crear la misma estructura que en el While, pero solo se debe ejecutar una vez.
          */
 
-        System.out.println("\n# Problema N°3");
+        System.out.println("\n# Ejercicio N°3");
         int numeroDoWhile = 10;
         do{
             numeroDoWhile++;
@@ -40,7 +39,7 @@ class exercise_4 {
          * Para el bucle For, crea una variable numeroFor, esta variable tendrá como valor 0 y su condición será que la variable sea igual o menor que 3, se irá incrementando en 1 su valor cada vez que se ejecute y deberá mostrarse por pantalla.
          */
 
-        System.out.println("\n# Problema N°4");
+        System.out.println("\n# Ejercicio N°4");
         for ( int numeroFor=0; numeroFor<=3; numeroFor++ ){
             System.out.println("-Numero: " + numeroFor);
         }
@@ -49,7 +48,7 @@ class exercise_4 {
          * Por último, para el Switch, deberás crear la variable estacion, y distintos case para las cuatro estaciones del año. Dependiendo del valor de la variable estacion se deberá
          */
 
-        System.out.println("\n# Problema N°5");
+        System.out.println("\n# Ejercicio N°5");
         String estacion = "OTOÑO";
         switch (estacion){
             case "PRIMAVERA":   System.out.println("la estacion es PRIMAVERA");     break;
