@@ -9,8 +9,8 @@ class exercise_4 {
 
         System.out.println("\n# Problema N°1");
         if ( numeroIf > 0){ System.out.println("El numero " + numeroIf + " es positivo"); }
-        if ( numeroIf == 0){ System.out.println("El numero " + numeroIf + " es 0"); }
-        if ( numeroIf < 0){ System.out.println("El numero " + numeroIf + " es negativo"); }
+        else if ( numeroIf == 0){ System.out.println("El numero " + numeroIf + " es 0"); }
+        else { System.out.println("El numero " + numeroIf + " es negativo"); }
 
         /**
          * Crea un bucle While, este bucle tendrá que tener como condición que la variable numeroWhile sea inferior a 3, el bloque de código que tendrá el bucle deberá:
@@ -30,11 +30,11 @@ class exercise_4 {
          */
 
         System.out.println("\n# Problema N°3");
-        int numeroWhile2 = 10;
+        int numeroDoWhile = 10;
         do{
-            numeroWhile2++;
-            System.out.println("-Numero: " + numeroWhile2);
-        }while ( numeroWhile2 < 3 );
+            numeroDoWhile++;
+            System.out.println("-Numero: " + numeroDoWhile);
+        }while ( numeroDoWhile < 3 );
 
         /**
          * Para el bucle For, crea una variable numeroFor, esta variable tendrá como valor 0 y su condición será que la variable sea igual o menor que 3, se irá incrementando en 1 su valor cada vez que se ejecute y deberá mostrarse por pantalla.
